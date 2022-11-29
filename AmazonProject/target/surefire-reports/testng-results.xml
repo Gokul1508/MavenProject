@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-29T10:21:45Z" name="AutomationTraining" finished-at="2022-11-29T10:22:40Z" duration-ms="54881">
+    <groups>
+      <group name="forProceedToBuy">
+        <method signature="TC01verifyVisibilityTest.navigate()[pri:1, instance:testCases.TC01verifyVisibilityTest@4c6e276e]" name="navigate" class="testCases.TC01verifyVisibilityTest"/>
+        <method signature="TC01verifyVisibilityTest.isProceedToBuyDisplayed()[pri:3, instance:testCases.TC01verifyVisibilityTest@4c6e276e]" name="isProceedToBuyDisplayed" class="testCases.TC01verifyVisibilityTest"/>
+      </group> <!-- forProceedToBuy -->
+      <group name="forBuyNow">
+        <method signature="TC01verifyVisibilityTest.navigate()[pri:1, instance:testCases.TC01verifyVisibilityTest@4c6e276e]" name="navigate" class="testCases.TC01verifyVisibilityTest"/>
+      </group> <!-- forBuyNow -->
+    </groups>
+    <test started-at="2022-11-29T10:21:45Z" name="Automation" finished-at="2022-11-29T10:22:40Z" duration-ms="54881">
+      <class name="testCases.TC01verifyVisibilityTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:testCases.TC01verifyVisibilityTest@4c6e276e]" started-at="2022-11-29T10:21:45Z" name="browserLaunch" finished-at="2022-11-29T10:21:59Z" duration-ms="14104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="navigate()[pri:1, instance:testCases.TC01verifyVisibilityTest@4c6e276e]" started-at="2022-11-29T10:21:59Z" name="navigate" finished-at="2022-11-29T10:22:37Z" duration-ms="37709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="isProceedToBuyDisplayed()[pri:3, instance:testCases.TC01verifyVisibilityTest@4c6e276e]" started-at="2022-11-29T10:22:37Z" name="isProceedToBuyDisplayed" finished-at="2022-11-29T10:22:40Z" depends-on-methods="testCases.TC01verifyVisibilityTest.navigate" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProceedToBuyDisplayed -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testCases.TC01verifyVisibilityTest@4c6e276e]" started-at="2022-11-29T10:22:40Z" name="quit" finished-at="2022-11-29T10:22:40Z" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.TC01verifyVisibilityTest -->
+    </test> <!-- Automation -->
+  </suite> <!-- AutomationTraining -->
+</testng-results>

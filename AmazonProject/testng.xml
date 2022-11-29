@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationTraining" verbose="1">
+    <test name="Automation">
+        <classes>
+            <class name="testCases.TC01verifyVisibilityTest">
+                <methods>
+                    <include name="navigate"/>
+                    <include name="isProceedToBuyDisplayed"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
